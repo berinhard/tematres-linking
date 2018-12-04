@@ -4,8 +4,8 @@ This repository has a simple [Python CGI script](https://wiki.python.org/moin/Cg
 
 To run this script on your own server you must:
 
-1 - On the server side, install [requests Python lib]() with the command `pip install requests`
-2 - Copy the `tematres_api.py` to your server's cgi directory. You can do as following:
+1. On the server side, install [requests Python lib]() with the command `pip install requests`
+2. Copy the `tematres_api.py` to your server's cgi directory. You can do as following:
 
 ```
 scp tematres_api.py user@myserver.com:/home/user/mysite.com/public/cgi-bin/tematres_api.py
